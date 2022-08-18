@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://source.unsplash.com/b6pqIe5eFh8");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 99vh;
+    font-family: 'dosis', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-nav {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 9px 34px;
+    font-size: 1.2rem;
+    color: rgb(19, 190, 76);
+}
+
+ul {
+    display: flex;
+    margin-left: left;
+    margin-right: 100px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 28px 40px; 
+    font-size: 1.2rem;
+    color: rgb(250, 250, 250);
+}
+ul li a:hover {
+    background:rgb(8, 212, 36);
+}
+.content-header {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content-header h1 {
+    font-size: 7rem;
+}
+
+.content-header p {
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+.content-header a {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 15px 30px;
+    background: rgb(166, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.content-header a:hover {
+    background:rgb(235, 60, 7);
+    border: 2px solid rgb(240, 240, 240);
+    padding: 13px 28px;
+}
+
+.linea2,.linea22 {
+    position: absolute;
+    width: 40px;
+    height: 130%;
+    background: rgb(32, 182, 119);
+    right: 10%;
+    top: -50px;
+    transform: rotate(15deg);
+    background-image: linear-gradient(to right top, #1a355c, #005d8a, #008696, #00ab77, #6bc939);
+} 
+
+.linea2 {
+    right: 13%;
+}
+
+.imagen {
+    width: 70%;
+    height: 100%;
+    padding: 7%;
+    border-style: solid;
+    border-color: blue;
+
+}
