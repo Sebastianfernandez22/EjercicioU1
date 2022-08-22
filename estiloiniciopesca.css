@@ -21,7 +21,7 @@ url("https://source.unsplash.com/b6pqIe5eFh8");
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     position: absolute;
     width: 100%;
-    z-index: 9;
+    z-index: 11;
 }
 
 .logo {
@@ -96,10 +96,40 @@ ul li a:hover {
 }
 
 .imagen {
-    width: 70%;
-    height: 100%;
-    padding: 7%;
-    border-style: solid;
-    border-color: blue;
+    width: 80%;
+    height: 110%;
+    padding: 109px;
+}
 
+.tabla {
+    border-color: red;
+}
+
+.galeria {
+
+    margin: 10px 20px;
+    text-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0  rgba(0,0,0,0,19);
+    float: left;
+    width: 200px;
+}
+
+div.galeria img{
+    width: 90%;
+    height: auto;
+}
+
+div.galeria:hover{
+    
+    border: 1px solid lightcoral;
+    transform: rotate(-2deg);
+}
+div.pie{
+    text-align: left;
+    display: flex;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+.div1 {
+    float: left;
+    margin: 20px;
 }
